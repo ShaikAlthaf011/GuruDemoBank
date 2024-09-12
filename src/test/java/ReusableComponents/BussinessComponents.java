@@ -79,8 +79,6 @@ public void Customeridnewaccount() {
 	Nw.Typesaccount(Nw.AccountType,"Savings");
 	Nw.DepositeAmount(Nw.Deopsite,"50000");
 	Nw.SUBMIT(Nw.Submitted);
-	ExtentFactory.getInstance().getExtent().log(Status.PASS,"results are verified");
-	ExtentFactory.getInstance().getExtent().log(Status.PASS,MediaEntityBuilder.createScreenCaptureFromPath(TechnicalComponents.takescreenshot())
-			.build());
+	
 }
 }
